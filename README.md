@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/jt9f8bo4)
 # Parcial Primer Corte
 
+## SANTIAGO NAVARRO CUY 0000305992 
+## Sitio web desplegado:  https://dsaw-2024-1.github.io/parcial-sobre-4-Tw3kda/
+
 ## HTML, CSS y JavaScript
 
 Para este ejercicio tendrá inicialmente **90 minutos**.
