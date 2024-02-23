@@ -1,0 +1,205 @@
+@font-face {
+    font-family: titles;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: text;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+.content{
+
+    font-family: text;
+}
+.info{
+    font-family: titles;
+    font-size: 13px;
+    margin-left: 0px;
+}
+.bold{
+    font-family: titles;
+    
+}
+
+p{
+    margin-left: rem;
+    font-family: text;
+    
+}
+.check{
+    list-style: none;
+    user-select: none;
+
+
+}
+.check{
+    list-style-image: url(./assets/images/icon-list.svg);
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-right: 2rem;
+   
+
+}
+.box .field{
+    
+    
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(158, 158, 158);
+    
+    border-radius: 5px;
+    width: 95%;
+    
+}
+
+.field{
+    flex:1;
+    border:none;
+    outline:none;
+    background: transparent;
+
+}
+.boton1,.boton2{
+    border:none;
+    outline: none;
+    border-radius:5px ;
+    padding: 1rem;
+    background: linear-gradient(to right, #ff4931, #ee833b);
+    font-family: titles;
+    color: white;
+    
+
+}
+
+
+@media(min-width: 320px){
+    .bold{
+        font-size: 2.5rem;
+        
+    }
+    body{
+            margin:0px;
+            height: 100%;
+    }
+    .image{
+        
+        width: 100%;
+    }
+    .content{
+        width: 100vw;
+    }
+    .text{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .response{
+        width: 90vw;
+        height: 100vh;  /* Corrected to 100vh for vertical height */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+          
+        margin-top: 5rem;
+        margin-left: 1rem;
+        
+       
+   
+    }
+    .imageS{
+        width: 17vw;
+        
+    }
+    .boton1,.boton2{
+        width: 90vw;
+    }
+
+
+}
+
+@media(min-width: 1024px){
+    body{
+        background-color: blueviolet;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+
+        
+        margin-top: 1rem;
+        margin-left: 2rem;
+    
+    }
+    .bold{
+        font-size: 3rem;
+        
+    }
+    .image{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        content: url(./assets/images/illustration-sign-up-desktop.svg);
+        width: 45%;
+        
+    }
+    .content{
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: self-start;
+        margin: 5rem;
+        padding: 1rem;
+        
+        background-color: white;
+        border-radius: 15px;
+        width: 60vw;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .response{
+        width: 40vw;
+        height: fit-content;  
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        
+        
+    }
+   
+    .response div{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        
+    }
+
+    .imageS{
+        width: 6vw;
+        
+    }
+    .boton1,.boton2{
+        width: 80%;
+        justify-self: center;
+    }
+   
+    
+
+    
+
+}
+.hide {
+    display: none;
+  }
