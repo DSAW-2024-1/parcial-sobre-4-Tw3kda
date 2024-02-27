@@ -32,7 +32,10 @@ Requerimientos:
 
 | Criterio                   | Puntaje |
 | -------------------------- | ------- |
-| Diseño Responsive          | 2       |
-| HTML Semántico             | 1       |
-| Funcionalidad              | 1.5     |
-| Despliegue en Github Pages | 0.5     |
+| Diseño Responsive          | 1.9/2       |
+| HTML Semántico             | 1/1       |
+| Funcionalidad              | 1.3/.5     |
+| Despliegue en Github Pages | 0.5/0.5     |
+
+Nota parcial: 4.7 x 0.8 -> 3.76, ¡buen trabajo!
+![image](https://github.com/DSAW-2024-1/parcial-sobre-4-Tw3kda/assets/50994778/1fe6fc4d-2059-4aaf-912e-034f53a97826)
